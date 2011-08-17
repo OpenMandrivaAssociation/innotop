@@ -2,7 +2,7 @@
 %define filelist %{name}-%{version}-filelist
 
 Name:      innotop
-Summary:   A MySQL and InnoDB monitor program.
+Summary:   A MySQL and InnoDB monitor program
 Version:   1.8.0
 Release:   %mkrel 1
 License:   GPL/Artistic
@@ -17,7 +17,7 @@ MySQL and InnoDB transaction/status monitor.  Like 'top' for MySQL.  Displays
 queries, InnoDB transactions, lock waits, deadlocks, foreign key errors, open
 tables, replication status, buffer information, row operations, logs, I/O
 operations, load graph, and more.  You can monitor many servers at once with
-innotop.
+innotop
 
 %prep
 %setup
