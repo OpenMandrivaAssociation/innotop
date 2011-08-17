@@ -4,13 +4,14 @@
 Name:      innotop
 Summary:   A MySQL and InnoDB monitor program
 Version:   1.8.0
-Release:   %mkrel 1
+Release:   %mkrel 2
 License:   GPL/Artistic
 Group:     Monitoring
 URL:       http://innotop.googlecode.com/
 Buildroot: %{_tmppath}/%{name}-%{version}-%(id -u -n)
 Buildarch: noarch
 Source:    http://%name}.googlecode.com/files/%{name}-%{version}.tar.gz
+Requires: perl(DBD::mysql)
 BuildRequires: perl(DBD::mysql)
 %description
 MySQL and InnoDB transaction/status monitor.  Like 'top' for MySQL.  Displays
