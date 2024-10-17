@@ -7,7 +7,7 @@ Version:   1.8.0
 Release:   %mkrel 2
 License:   GPL/Artistic
 Group:     Monitoring
-URL:       http://innotop.googlecode.com/
+URL:       https://innotop.googlecode.com/
 Buildroot: %{_tmppath}/%{name}-%{version}-%(id -u -n)
 Buildarch: noarch
 Source:    http://%name}.googlecode.com/files/%{name}-%{version}.tar.gz
