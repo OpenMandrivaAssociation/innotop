@@ -4,7 +4,7 @@
 Name:      innotop
 Summary:   A MySQL and InnoDB monitor program
 Version:   1.8.0
-Release:   %mkrel 2
+Release:   3
 License:   GPL/Artistic
 Group:     Monitoring
 URL:       https://innotop.googlecode.com/
